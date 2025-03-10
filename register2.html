@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link rel="stylesheet" htef="main.css">
+        <link rel="stylesheet" type="textless"href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <center><h1><u>Registration Form </u></head></h1></center>
+            <form action="successfull.html">
+                <div class="register"></div>
+                <table border="6"align="center">
+                    <tr>
+                        <td><label><b>Full name</label></b></td>
+                        <td><input type="text" name="fname" id="name" placeholder="enter your full name" required></td>
+                    </tr>
+                    <tr>
+                        <td><b><label>Hallticket </label></b></td>
+                        <td><input type="text" name="Hallticket" id="name" placeholder="enter your hallticket" required></td>
+                    </tr>
+                    <tr>
+                            <td><b><label>Gender</label></b></td>
+                            <td><br><input type="radio" name="gender" id="male">
+                                <span id="male">MALE</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio"name="gender"id="female"required>
+                                <span id="female">FEMALE</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio"name="gender"id="other"required><span id="other">OTHER</span><br><br></td>
+                            </tr>
+                            <tr>
+                                    <td><b><label>Email id</label></b></td>
+                                        <td><input type="email"name="email"id="name"placeholder="example@gmail.com"required></td>
+                                    </tr>
+                                    <tr>
+                                            <td><b><label>Password</label></b></td>
+                                            <td><input type="password"name="password"id="name"placeholder="set password"required></td>
+                                    </tr>
+                                    <tr>
+                                                <td><b><label>Confirm password</label></b></td>
+                                                <td><input type="confirm password"name="confirm password"id="name"placeholder="confirm password"required></td>
+                                    </tr>
+                                    <tr>
+                                                    <td><br><b><label>Branch</label></b></td>
+                                                    <td><br><select>
+                                                        <option value="AIML">AIML</option>
+                                                        <option value="CSE">CSE</option>
+                                                        <option value="DS">DS</option>
+                                                    </select><br><br></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><label>Address</label></td>
+                                                        <td><input type="text"name="address"id="name"placeholder="enter your address"required></td>
+                                                </tr>
+                                                <tr>
+                                                            <td><b><label>Upload photo</label></b></td>
+                                                   <td><input type="file"x-ref="file"@change=filename=$refs.file.files[0].name"name="img[]"class="d-name" required></td>
+                                                </tr>
+                                                <tr>
+                                                        <div class="container">
+                                                            <div class="input-group shadow">
+                                                                <td><input type="submit"value="Submit"required>
+                                                                    <input type="Reset">
+                                                                    <input id="cancelbutton"style=""onclick="cancelbutton_click" type="button" value="Cancel"></td>
+                                                                </tr>
+                                                                    </form>
+                                                                </div>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                     <script>
+                                                        <function clearform()
+                                                        {
+                                                            document.getElementById("Input_name").value="";
+                                                            document.getElementById("Input_email").value="";
+                                                        }
+                                                        </script>
+                                                        </body>
+                                                        </html>
+                                    
